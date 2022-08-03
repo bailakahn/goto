@@ -2,7 +2,11 @@ import PropTypes from "prop-types";
 
 function Button(props) {
   const { className, onClick, text, style } = props;
-  return <button {...{ className, onClick, style }}> {text} </button>;
+  return (
+    <button data-testid="button" {...{ className, onClick, style }}>
+      {text}
+    </button>
+  );
 }
 
 Button.propTypes = {
