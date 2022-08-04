@@ -1,5 +1,7 @@
 # Welcome to my stock recommendation wizard
 
+### Please do not judge this project based on the CSS. I am more backend oriented than frontend
+
 ### Disclamer!!!: A prod issue at work prevented me from polishing the app as well as I wished to do
 
 ### Hopefully it will be worth your while
@@ -17,3 +19,8 @@ In the project directory, you can run:
 To run tests
 
 ### `npm test`
+
+### Available stocks
+
+- APPL
+- AC

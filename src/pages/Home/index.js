@@ -10,12 +10,13 @@ function Home() {
     <div style={Classes.container}>
       <div style={Classes.box}>
         <h3>Stock Recommendation Wizard</h3>
+        <h4>Available stocks (APPL, AC)</h4>
         <TextInput
           id="search-stock"
           onChange={(e) => stocks.actions.setSearch(e.target.value)}
           style={Classes.input}
           value={stocks.search}
-          placeholder="Enter Stock"
+          placeholder="Search a Stock"
         />
 
         <Button
