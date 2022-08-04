@@ -6,13 +6,12 @@ export const container = {
   flex: 1,
   backgroundColor: colors.background,
   alignItems: "center",
-  justifyContent: "center",
   minHeight: "100vh",
+  flexDirection: "column",
 };
 
-export const container2 = {
-  flex: 1,
-  backgroundColor: colors.background,
+export const box = {
+  marginTop: 50,
 };
 
 export const input = {
@@ -28,3 +27,12 @@ export const button = {
   borderRadius: 5,
   color: "#fff",
 };
+
+export const select = {
+  width: mixins.width(200),
+  height: mixins.height(35),
+  borderRadius: 5,
+  paddingLeft: 10,
+};
+
+export const table = { marginTop: 10 };
