@@ -1,11 +1,14 @@
 import { BrowserRouter as Router } from "react-router-dom";
 import { render, screen } from "@testing-library/react";
+import { StoreProvider } from "./store";
 import App from "./App";
 
 test("App Rendering", () => {
   render(
     <Router>
-      <App />
+      <StoreProvider>
+        <App />
+      </StoreProvider>
     </Router>
   ); // Rendering the App
   const text = screen.getByTestId("input");
